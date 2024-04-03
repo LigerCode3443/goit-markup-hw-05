@@ -422,23 +422,32 @@ img {
 .box-footer .svg-team-social:focus {
   background-color: #31d0aa;
 }
-.footer-form {
-  display: flex;
-  align-items: end;
-  gap: 24px;
-  margin-left: 80px;
-}
-.foter-label {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+.caption-form {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
+}
+.box-footer-form {
+  margin-left: 80px;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.foter-label {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .footer-input {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
@@ -650,13 +659,13 @@ img {
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .chekbox-svg {
-  fill: transparent;
 }
 .policy {
   color: #4d5ae5;
