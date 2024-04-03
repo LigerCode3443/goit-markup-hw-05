@@ -456,6 +456,7 @@ img {
   color: #fff;
 }
 .bhg-submit {
+  font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -468,10 +469,11 @@ img {
   color: #fff;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
   border: transparent;
+  cursor: pointer;
 }
 .footer-bng-svg {
   fill: #f4f4fd;
