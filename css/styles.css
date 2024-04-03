@@ -638,7 +638,7 @@ img {
 }
 .input-chekbox {
 }
-.input-chekbox:checked + .label-chekbox .box-castum-chekbox .chekbox-svg {
+.input-chekbox:checked + .label-chekbox .box-castum-chekbox {
   fill: #f4f4fd;
 }
 .input-chekbox:checked + .label-chekbox .box-castum-chekbox {
